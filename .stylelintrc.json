@@ -18,7 +18,7 @@
 		"string-quotes": "single",
 		"value-keyword-case": "lower",
 		"unit-disallowed-list": [],
-		"max-empty-lines": 2,
+		"max-empty-lines": 1,
 		"no-descending-specificity": true,
 		"no-duplicate-selectors": true,
 		"font-family-no-missing-generic-family-keyword": null,

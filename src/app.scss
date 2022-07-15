@@ -2,12 +2,13 @@
 	font-style: normal;
 	font-family: Nunito;
 	font-weight: normal;
-	src: url('./font/nunito/Nunito-Regular.woff2') format('woff2'),
-		url('./font/nunito/Nunito-Regular.woff') format('woff');
+	src: url('/font/nunito/Nunito-Regular.woff2') format('woff2'),
+		url('/font/nunito/Nunito-Regular.woff') format('woff');
 	font-display: swap;
 }
 
 * {
-	font-family: Nunito, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Nunito', system-ui, -apple-system, BlinkMacSystemFont,
+		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+		sans-serif;
 }

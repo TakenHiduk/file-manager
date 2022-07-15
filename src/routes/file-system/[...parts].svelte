@@ -10,11 +10,7 @@
 		}
 		parts = parts.split('/');
 
-		return {
-			props: {
-				parts,
-			},
-		};
+		return { props: { parts } };
 	};
 </script>
 
@@ -25,12 +21,6 @@
 
 	const switchFolder = async (index?: number) => {
 		let newParts = [];
-		console.log(index);
-
-		// if (index === 0) {
-		// 	await goto('/file-system');
-		// 	return;
-		// }
 
 		if (index !== undefined) {
 			newParts = parts.slice(0, index + 1);
@@ -39,11 +29,6 @@
 		}
 		const path = newParts.join('/');
 		const url = `/file-system/${path}`;
-
-		console.log({
-			from: parts.join('/'),
-			to: newParts.join('/'),
-		});
 
 		await goto(url);
 	};
