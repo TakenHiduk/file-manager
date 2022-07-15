@@ -1,0 +1,22 @@
+{
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[toml]": {
+		"editor.defaultFormatter": "be5invis.toml"
+	},
+	"css.validate": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.enable": true,
+	"eslint.validate": ["svelte", "typescript", "ts"],
+	"less.validate": false,
+	"scss.validate": false,
+	"stylelint.enable": true,
+	"stylelint.validate": ["css", "sass", "scss", "postcss", "svelte"]
+}
